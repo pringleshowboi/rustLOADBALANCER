@@ -1,0 +1,8 @@
+[package]
+name = "rust-load-balancer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.44.2", features = ["full"] }
+hyper = { version = "0.14", features = ["full"] }
